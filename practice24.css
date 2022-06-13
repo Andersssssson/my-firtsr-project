@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    width: 1200px;
+    margin: auto;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.nav{
+    color: black;
+    /* text-align: center; */
+    position: sticky;
+    top: 0px;
+    cursor: pointer;
+}
+.nav ul{
+    display: inline-block;
+    padding: 23px 8px;
+    color: white;
+}
+#language{
+    font-weight: 900;
+    font-size: 24px;
+    
+}
+.nav ul:hover{
+    background-color: rgba(16, 14, 11, 0.15);
+    font-size: 20px;
+    font-weight: 900;
+}
+.logo :hover{
+    background-color: rgba(103, 99, 95, 0.169);
+}
+.main_img{
+    background: url(https://cdn.pixabay.com/photo/2016/11/18/16/49/books-1835753__480.jpg);
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   margin-bottom: 80px; 
+}
+.cont_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    margin: auto;
+    /* position: absolute;
+    top: 500px;
+    left: 720px; */
+}
+.cont{
+    text-align: center;
+    }
+.cont p{
+    font-size: 40px;
+    /* -webkit-text-stroke: 1px rgb(218, 218, 29); */
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    text-align: center;
+}
+.logo{
+    float: left;
+    margin-top: 3px;
+    margin-left: 24px;
+    position: sticky;
+}
+.login{
+    font-size: 24px;
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    color: white;
+}
+/* .link{
+    position: absolute;
+    bottom: 249px;
+    left: 488px;
+} */
+#link{
+    margin-top: 70px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.english{
+    background: url(https://media.nomadicmatt.com/englandguide.jpg);
+    height: 600px;
+    width: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.chinese{
+    background: url(https://www.dachser.com/en/mediaroom/images/Corporate/market%20information/DGI_002543__rdax_1176x661_60.jpg);
+    width: 600px;
+    height: 600px;
+}
+.con_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.language{
+    display: flex;
+}
+.content{
+    text-align: center;
+    color: white;
+}
+.chinese_ex{
+    width: 600px;
+    height: 600px;
+    background-color: #f9f9f9;
+   }
+.ex_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.japanese{
+    background: url(https://uwaterloo.ca/culture-and-language-studies/sites/ca.culture-and-language-studies/files/styles/wide-body-750px-wide/public/uploads/images/svetlana-gumerova-skvfbsigl0w-unsplash.jpg?itok=fcXmUOmG);
+    width: 600px;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.how h1{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+/* .explain_box{
+    
+} */
+.explain{
+    text-align: center;
+    width: 1000px;
+    margin: auto;
+    
+}
+.explain p{
+    margin-bottom: 40px;
+    color: #414042
+}
+.footer{
+    text-align: center;
+    margin-bottom: 40px;
+}
